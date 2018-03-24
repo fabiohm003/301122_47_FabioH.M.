@@ -1,0 +1,204 @@
+﻿
+
+/****************/
+/****************/
+/****************/
+
+/*estilos de encabezado y menu desplegable*/
+
+.Principal
+{
+z-index: 100; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: fixed; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: 10px; /*distancia de caja al borde superior*/
+left: 10px; /*distancia de caja al borde de izquierda*/
+right: 10px; /*distancia de caja al borde de derecha*/
+}
+
+
+
+.TituloGeneral
+{
+display:block; /*como mostrar un elemento*/
+height: auto; /*alto de caja*/
+width:98%; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+text-align: center; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:15px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+}
+
+
+#Titulo1
+{
+background:#005883; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+#Titulo2
+{
+background:#F0B429; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+margin: 9px 0px 0px 0px; /*margenes*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+
+
+.MenuVertical
+{
+height: auto; /*alto de caja*/
+width:170px; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+margin: 9px 0px 0px 0px; /*margenes*/
+text-transform: none;
+list-style: none; /*estilo de lista.. son como viñetas*/
+}
+
+
+.MenuVertical li a
+{
+display:block;
+background:#F47920; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+padding: 10px 0px 10px 10px; /*relleno*/
+margin: 0px 0px 0px 0px; /*margenes*/
+text-align: left; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+text-decoration: none; /*quitar subrayado de enlaces etiqueta a*/
+color: #FFFFFF; /*color letra*/
+font-size:12; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+
+
+.MenuVertical li a:hover
+{
+background: #005883; /* Cambiamos el fondo cuando el usuario pase el mouse */
+}
+
+
+
+
+
+/****************/
+/****************/
+/****************/
+
+/*estilos de inicio*/
+
+.InicioPrincipal
+{
+z-index: 20; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: absolute; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: 200px; /*distancia de caja al borde superior*/
+left: 200px; /*distancia de caja al borde de izquierda*/
+right: 37px; /*distancia de caja al borde de derecha*/
+}
+
+.InicioContenidos
+{
+display:block; /*como mostrar un elemento*/
+height: auto; /*alto de caja*/
+width:100%; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+}
+
+
+
+#InicioTitulo
+{
+background:#333333; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: center; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+#InicioContenido
+{
+background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+
+
+
+/****************/
+/****************/
+/****************/
+
+
+
+
+
+
+
+
+/****************/
+/****************/
+/****************/
+
+/*estilos de conceptos*/
+
+.ConceptosPrincipal
+{
+z-index: 20; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: absolute; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: 200px; /*distancia de caja al borde superior*/
+left: 200px; /*distancia de caja al borde de izquierda*/
+right: 37px; /*distancia de caja al borde de derecha*/
+}
+
+.ConceptosContenidos
+{
+display:block; /*como mostrar un elemento*/
+height: auto; /*alto de caja*/
+width:100%; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+}
+
+
+
+#ConceptosTitulo
+{
+background:#333333; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: center; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+#ConceptosCont
+{
+background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:13px; /*tamaño de la letra*/
+font-weight: normal; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+
+#Imagen
+{
+padding: 10px 10px 10px 10px; /*relleno*/
+width:500px; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+height: auto; /*alto de caja*/
+}
+
+
+
+/****************/
+/****************/
+/****************/
+
+
