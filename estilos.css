@@ -24,7 +24,7 @@ height: auto; /*alto de caja*/
 width:98%; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
 text-align: center; /*alineacion de texto*/
 font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
-font-size:15px; /*tamaño de la letra*/
+font-size:20px; /*tamaño de la letra*/
 font-weight: bold; /*grosor de letra*/
 color: #FFFFFF; /*color letra*/
 }
@@ -45,6 +45,18 @@ padding: 10px 10px 10px 10px; /*relleno*/
 
 
 
+
+#LogoImagen
+{
+padding: 0px 0px 0px 0px; /*relleno*/
+width:110px; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+height: auto; /*alto de caja*/
+float:right; /*left (imagen a la izquierda del texto).. right (imagen a la derecha del texto)*/
+}
+
+
+
+
 .MenuVertical
 {
 height: auto; /*alto de caja*/
@@ -57,7 +69,7 @@ list-style: none; /*estilo de lista.. son como viñetas*/
 
 .MenuVertical li a
 {
-display:block;
+display:block; /*como mostrar un elemento*/
 background:#F47920; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
 padding: 10px 0px 10px 10px; /*relleno*/
 margin: 0px 0px 0px 0px; /*margenes*/
@@ -75,6 +87,27 @@ transition:all 500ms ease; /* Establecemos una transición a todas las propiedad
 {
 background: #005883; /* Cambiamos el fondo cuando el usuario pase el mouse */
 }
+
+
+.MenuVertical li:hover > ul 
+{
+display:block; /*como mostrar un elemento*/
+}
+
+
+.MenuVertical li ul
+{
+display:none; /*como mostrar un elemento*/
+position:absolute; /*posicionamiento*/
+list-style: none; /*estilo de lista.. son como viñetas*/
+top: auto; /*alto de caja desde su borde superior*/
+left: 130px; /*distancia de caja al borde de izquierda*/
+height: auto; /*alto de caja*/
+width: 170px; /*ancho de caja*/
+margin: -38px 0px 0px 0px; /*margenes*/
+}
+
+
 
 
 
@@ -202,3 +235,224 @@ height: auto; /*alto de caja*/
 /****************/
 
 
+
+
+/****************/
+/****************/
+/****************/
+
+/*estilos de estandares/iso*/
+
+.IsoPrincipal
+{
+z-index: 20; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: absolute; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: 200px; /*distancia de caja al borde superior*/
+left: 200px; /*distancia de caja al borde de izquierda*/
+right: 37px; /*distancia de caja al borde de derecha*/
+}
+
+.IsoContenidos
+{
+display:block; /*como mostrar un elemento*/
+height: auto; /*alto de caja*/
+width:100%; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+}
+
+
+
+#IsoTitulo
+{
+background:#333333; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: center; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+#IsoContenido
+{
+background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:15px; /*tamaño de la letra*/
+font-weight: normal; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+
+#IsoImagen
+{
+padding: 20px 20px 20px 20px; /*relleno*/
+width:200px; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+height: auto; /*alto de caja*/
+float:left; /*left (imagen a la izquierda del texto).. right (imagen a la derecha del texto)*/
+}
+
+
+
+#IsoImagen2
+{
+padding: 20px 20px 20px 20px; /*relleno*/
+width:200px; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+height: auto; /*alto de caja*/
+float:right; /*left (imagen a la izquierda del texto).. right (imagen a la derecha del texto)*/
+}
+
+
+
+/****************/
+/****************/
+/****************/
+
+/*estilos de legal*/
+
+.LegalPrincipal
+{
+z-index: 20; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: absolute; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: 200px; /*distancia de caja al borde superior*/
+left: 200px; /*distancia de caja al borde de izquierda*/
+right: 37px; /*distancia de caja al borde de derecha*/
+}
+
+.LegalContenidos
+{
+display:block; /*como mostrar un elemento*/
+height: auto; /*alto de caja*/
+width:100%; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+}
+
+
+
+#LegalTitulo
+{
+background:#333333; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: center; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+#LegalContenido
+{
+background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:15px; /*tamaño de la letra*/
+font-weight: normal; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+
+#LegalImagen2
+{
+padding: 20px 20px 20px 20px; /*relleno*/
+width:200px; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+height: auto; /*alto de caja*/
+float:right; /*left (imagen a la izquierda del texto).. right (imagen a la derecha del texto)*/
+}
+
+
+/****************/
+/****************/
+/****************/
+
+
+
+
+/****************/
+/****************/
+/****************/
+
+/*estilos de referencias*/
+
+.RefPrincipal
+{
+z-index: 20; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: absolute; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: 200px; /*distancia de caja al borde superior*/
+left: 200px; /*distancia de caja al borde de izquierda*/
+right: 37px; /*distancia de caja al borde de derecha*/
+}
+
+.RefContenidos
+{
+display:block; /*como mostrar un elemento*/
+height: auto; /*alto de caja*/
+width:100%; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+}
+
+
+
+#RefTitulo
+{
+background:#333333; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: center; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+#RefContenido
+{
+background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:15px; /*tamaño de la letra*/
+font-weight: normal; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+
+#RefImagen2
+{
+padding: 20px 20px 20px 20px; /*relleno*/
+width:200px; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+height: auto; /*alto de caja*/
+float:right; /*left (imagen a la izquierda del texto).. right (imagen a la derecha del texto)*/
+}
+
+
+/****************/
+/****************/
+/****************/
+
+
+
+/****************/
+/****************/
+/****************/
+
+/*Para resaltar texto*/
+
+#TextoResaldado
+{
+background:#F47920; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+color: #000000; /*color letra*/
+}
+
+#DescrImagen
+{
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:8px; /*tamaño de la letra*/
+font-weight: normal; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 0px 0px 0px 0px; /*relleno*/
+}
+
+
+/****************/
+/****************/
+/****************/
+/****************/
