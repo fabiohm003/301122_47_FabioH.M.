@@ -113,6 +113,59 @@ margin: -38px 0px 0px 0px; /*margenes*/
 
 
 
+
+
+
+
+
+
+/****************/
+/****************/
+/****************/
+
+/*estilos de pie de pagina*/
+
+.PiePagina
+{
+clear: both;
+z-index: 100; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: absolute; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: auto; /*distancia de caja al borde superior*/
+left: 0px; /*distancia de caja al borde de izquierda*/
+right: 0px; /*distancia de caja al borde de derecha*/
+bottom: auto; /*distancia de caja al borde inferior*/
+
+display:block; /*como mostrar un elemento*/
+height: auto; /*alto de caja*/
+width:auto; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:10px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+}
+
+
+#PiePaginaTitulo1
+{
+background:#005883; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+margin: 10px 0px 10px 0px; /*margenes*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+
+
+
+/****************/
+/****************/
+/****************/
+
+
+
+
+
+
+
 /****************/
 /****************/
 /****************/
