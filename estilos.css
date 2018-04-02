@@ -1,4 +1,4 @@
-﻿
+
 /****************/
 /****************/
 /****************/
@@ -15,6 +15,15 @@ right: 10px; /*distancia de caja al borde de derecha*/
 
 }
 
+.Principalv
+{
+z-index: 100; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: absolute; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: 10px; /*distancia de caja al borde superior*/
+left: 10px; /*distancia de caja al borde de izquierda*/
+right: 10px; /*distancia de caja al borde de derecha*/
+
+}
 
 
 .TituloGeneral
@@ -44,8 +53,6 @@ padding: 10px 10px 10px 10px; /*relleno*/
 }
 
 
-
-
 #LogoImagen
 {
 padding: 0px 0px 0px 0px; /*relleno*/
@@ -53,8 +60,6 @@ width:110px; /*Le establecemos un ancho, es decir, es la longitud de todo el men
 height: auto; /*alto de caja*/
 float:right; /*left (imagen a la izquierda del texto).. right (imagen a la derecha del texto)*/
 }
-
-
 
 
 .MenuVertical
@@ -108,17 +113,6 @@ margin: -38px 0px 0px 0px; /*margenes*/
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /****************/
 /****************/
 /****************/
@@ -153,6 +147,33 @@ margin: 10px 0px 10px 0px; /*margenes*/
 padding: 10px 10px 10px 10px; /*relleno*/
 }
 
+.PiePagina1
+{
+clear: both;
+z-index: 100; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: absolute; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: auto; /*distancia de caja al borde superior*/
+left: 0px; /*distancia de caja al borde de izquierda*/
+right: 0px; /*distancia de caja al borde de derecha*/
+bottom: auto; /*distancia de caja al borde inferior*/
+
+display:block; /*como mostrar un elemento*/
+height: auto; /*alto de caja*/
+width:auto; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:10px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+}
+
+
+#PiePaginaTitulo2
+{
+background:#005883; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+margin: 10px 0px 10px 0px; /*margenes*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
 
 
 
@@ -160,11 +181,10 @@ padding: 10px 10px 10px 10px; /*relleno*/
 /****************/
 /****************/
 
-
-
-
-
-
+iframe{
+	display: inline-block;
+margin-top: 400px;
+}
 
 /****************/
 /****************/
@@ -181,6 +201,15 @@ left: 200px; /*distancia de caja al borde de izquierda*/
 right: 37px; /*distancia de caja al borde de derecha*/
 }
 
+.InicioPrincipal1
+{
+z-index: 20; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: absolute; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: 200px; /*distancia de caja al borde superior*/
+left: 200px; /*distancia de caja al borde de izquierda*/
+right: 37px; /*distancia de caja al borde de derecha*/
+}
+
 .InicioContenidos
 {
 display:block; /*como mostrar un elemento*/
@@ -188,9 +217,36 @@ height: auto; /*alto de caja*/
 width:100%; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
 }
 
+.InicioContenidos1
+{
+display:block; /*como mostrar un elemento*/
+height: auto; /*alto de caja*/
+width:100%; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+}
 
+#InicioTitulo1
+{
+background:#333333; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: center; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
 
 #InicioTitulo
+{
+background:#333333; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: center; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+#InicioTitulo1
 {
 background:#333333; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
 text-align: center; /*alineacion de texto*/
@@ -212,7 +268,16 @@ color: #FFFFFF; /*color letra*/
 padding: 10px 10px 10px 10px; /*relleno*/
 }
 
-
+#InicioContenido1
+{
+background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
 
 
 /****************/
