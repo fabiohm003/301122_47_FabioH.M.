@@ -1,5 +1,4 @@
 ﻿
-
 /****************/
 /****************/
 /****************/
@@ -13,6 +12,7 @@ position: fixed; /*orientacion y posicionamiento... registrar **fixed** si se re
 top: 10px; /*distancia de caja al borde superior*/
 left: 10px; /*distancia de caja al borde de izquierda*/
 right: 10px; /*distancia de caja al borde de derecha*/
+
 }
 
 
