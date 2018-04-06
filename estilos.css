@@ -590,6 +590,34 @@ color: #FFFFFF; /*color letra*/
 padding: 10px 10px 10px 10px; /*relleno*/
 }
 
+.RefPrincipal2
+{
+z-index: 101; /*entre mas alto indice mas cerca al usuario de sistema esta*/
+position: absolute; /*orientacion y posicionamiento... registrar **fixed** si se requiere que esté fijo***absolute** se mantiene arriba*/
+top: 200px; /*distancia de caja al borde superior*/
+left: 360px; /*distancia de caja al borde de izquierda*/
+right: 37px; /*distancia de caja al borde de derecha*/
+}
+
+
+#RefTitulo2
+{
+background:#333333; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: center; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+
+#RefContenido2
+{
+background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
 
 #RefImagen2
 {
