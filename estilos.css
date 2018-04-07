@@ -585,6 +585,65 @@ float:right; /*left (imagen a la izquierda del texto).. right (imagen a la derec
 
 
 
+
+
+
+
+
+/****************/
+/****************/
+/****************/
+
+/*Para autores*/
+
+
+
+
+#AutoresTitulo1
+{
+background:#333333; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+
+#AutoresTitulo2
+{
+background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+
+#AutoresImagen
+{
+padding: 0px 20px 0px 10px; /*relleno*/
+width:130px; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+height: auto; /*alto de caja*/
+float:left; /*left (imagen a la izquierda del texto).. right (imagen a la derecha del texto)*/
+}
+
+
+
+
+/****************/
+/****************/
+/****************/
+
+
+
+
+
+
+
 /****************/
 /****************/
 /****************/
@@ -612,4 +671,8 @@ padding: 0px 0px 0px 0px; /*relleno*/
 /****************/
 /****************/
 /****************/
+
+
+
+
 
