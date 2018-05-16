@@ -76,7 +76,7 @@ float:right; /*left (imagen a la izquierda del texto).. right (imagen a la derec
 {
 height: auto; /*alto de caja*/
 width:170px; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
-margin: 9px 0px 0px 0px; /*margenes*/
+margin: 220px 0px 0px 0px; /*margenes*/
 text-transform: none;
 list-style: none; /*estilo de lista.. son como viñetas*/
 }
@@ -263,6 +263,17 @@ padding: 10px 10px 10px 10px; /*relleno*/
 }
 
 #InicioContenido
+{
+background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+text-align: justify; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+#InicioContenido2
 {
 background:#808080; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
 text-align: justify; /*alineacion de texto*/
